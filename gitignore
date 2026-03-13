@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# Whisper model cache — auto-downloaded, don't commit (up to 1.5GB!)
+~/.cache/whisper/
+.cache/
+
+# Temporary audio files
+*.tmp
+tmp_*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Personal audio/video — never commit private recordings!
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.mkv
+*.mov
+*.avi
