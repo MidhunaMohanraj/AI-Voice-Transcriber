@@ -3,7 +3,7 @@ app.py — AI Voice Transcriber
 Upload audio/video → Get accurate transcript + summary + speaker stats
 100% free using OpenAI Whisper (runs locally, no API key needed)
 """
-
+ 
 import streamlit as st
 import whisper
 import tempfile
